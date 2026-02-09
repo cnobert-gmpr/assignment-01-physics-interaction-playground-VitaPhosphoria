@@ -16,7 +16,6 @@ namespace Assignment01
         {
             Debug.Log($"[Portal] OnTriggerEnter2D called on {gameObject.name}, colliding with {collision.gameObject.name}");
             
-            // Only entrance portals (with _exitPortal assigned) can transfer the ball
             if (_exitPortal == null)
             {
                 Debug.Log($"[Portal] {gameObject.name} is an EXIT portal - not transferring ball");
@@ -25,7 +24,6 @@ namespace Assignment01
             
             if (collision.CompareTag("Ball"))
             {
-                // Check if enough time has passed since last transfer to prevent re-entry
                 if (Time.time - _lastTransferTime < _transferCooldown)
                 {
                     Debug.Log($"[Portal] Ball still in cooldown. Skipping transfer.");
