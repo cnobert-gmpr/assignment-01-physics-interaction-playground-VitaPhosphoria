@@ -949,7 +949,7 @@ GameObject:
   - component: {fileID: 707617255}
   - component: {fileID: 707617254}
   - component: {fileID: 707617253}
-  - component: {fileID: 707617252}
+  - component: {fileID: 707617256}
   m_Layer: 0
   m_Name: Bumper2
   m_TagString: Untagged
@@ -957,21 +957,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &707617252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707617251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee7b65d4538c7364aa348416bfc205d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Bumper
-  _bumperForce: 50
-  _litDuration: 0.2
-  _litColor: {r: 1, g: 0.7529413, b: 0.7960785, a: 1}
 --- !u!58 &707617253
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1082,6 +1067,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &707617256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707617251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7b65d4538c7364aa348416bfc205d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bumper
+  _bumperForce: 50
+  _litDuration: 0.2
+  _litColor: {r: 1, g: 0.7529413, b: 0.7960785, a: 1}
 --- !u!1 &751817787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,7 +1093,7 @@ GameObject:
   - component: {fileID: 751817791}
   - component: {fileID: 751817790}
   - component: {fileID: 751817789}
-  - component: {fileID: 751817788}
+  - component: {fileID: 751817792}
   m_Layer: 0
   m_Name: Bumper4
   m_TagString: Untagged
@@ -1101,21 +1101,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &751817788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 751817787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee7b65d4538c7364aa348416bfc205d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Bumper
-  _bumperForce: 50
-  _litDuration: 0.2
-  _litColor: {r: 1, g: 0.7529413, b: 0.7960785, a: 1}
 --- !u!58 &751817789
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1226,6 +1211,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &751817792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751817787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7b65d4538c7364aa348416bfc205d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bumper
+  _bumperForce: 50
+  _litDuration: 0.2
+  _litColor: {r: 1, g: 0.7529413, b: 0.7960785, a: 1}
 --- !u!1 &1088364757
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,7 +2289,7 @@ GameObject:
   - component: {fileID: 1790896851}
   - component: {fileID: 1790896850}
   - component: {fileID: 1790896849}
-  - component: {fileID: 1790896848}
+  - component: {fileID: 1790896852}
   m_Layer: 0
   m_Name: Bumper
   m_TagString: Untagged
@@ -2297,21 +2297,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1790896848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790896847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee7b65d4538c7364aa348416bfc205d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Bumper
-  _bumperForce: 50
-  _litDuration: 0.2
-  _litColor: {r: 1, g: 0.7529413, b: 0.7960785, a: 1}
 --- !u!58 &1790896849
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2422,6 +2407,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1790896852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790896847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7b65d4538c7364aa348416bfc205d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bumper
+  _bumperForce: 50
+  _litDuration: 0.2
+  _litColor: {r: 1, g: 0.7529413, b: 0.7960785, a: 1}
 --- !u!1 &1895504085
 GameObject:
   m_ObjectHideFlags: 0
@@ -2633,7 +2633,7 @@ GameObject:
   - component: {fileID: 2053009663}
   - component: {fileID: 2053009662}
   - component: {fileID: 2053009661}
-  - component: {fileID: 2053009660}
+  - component: {fileID: 2053009664}
   m_Layer: 0
   m_Name: Bumper3
   m_TagString: Untagged
@@ -2641,21 +2641,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2053009660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053009659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee7b65d4538c7364aa348416bfc205d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Bumper
-  _bumperForce: 50
-  _litDuration: 0.2
-  _litColor: {r: 1, g: 0.7529413, b: 0.7960785, a: 1}
 --- !u!58 &2053009661
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2766,6 +2751,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2053009664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053009659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7b65d4538c7364aa348416bfc205d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bumper
+  _bumperForce: 50
+  _litDuration: 0.2
+  _litColor: {r: 1, g: 0.7529413, b: 0.7960785, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
